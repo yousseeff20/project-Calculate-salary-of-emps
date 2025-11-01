@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Manager m = new Manager()
+            {
+                emp_id = 101,
+                emp_name = "John Doe",
+                loggedHours = 180,
+                wage = 10.0
+            };
+            Console.WriteLine(m.ToString());
         }
     }
 }
