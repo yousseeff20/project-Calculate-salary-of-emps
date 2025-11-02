@@ -1,6 +1,6 @@
 ﻿namespace project_Calculate_salary_of_emps
 {
-      class Program
+    class Program
     {
         static void Main(string[] args)
         {
